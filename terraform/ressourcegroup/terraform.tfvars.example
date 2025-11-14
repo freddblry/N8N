@@ -1,7 +1,0 @@
-resource_group_name = "rg-myproject-dev"
-location            = "France Central"
-environment         = "dev"
-tags = {
-  project = "myproject"
-  owner   = "team-xyz"
-}

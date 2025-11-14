@@ -4,9 +4,15 @@ on:
   push:
     branches:
       - main
+         paths:
+      - 'terraform/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
   pull_request:
     branches:
       - '*'
+
+
 
 jobs:
   terraform:

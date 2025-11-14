@@ -1,0 +1,18 @@
+prefix             = "iac"
+environment        = "dev"
+location           = "eastus"
+vm_size            = "Standard_B2s"
+admin_username     = "azureuser"
+admin_password     = "YourStrongP@ssw0rd!"
+vnet_address_space = "10.0.0.0/16"
+subnet_address_prefix = "10.0.1.0/24"
+tags = {
+  Project = "TerraformAzureVM"
+  Owner   = "DevOps Team"
+}
+devops_agent_pat = "your_azure_devops_pat_here"
+devops_organization_url = "https://dev.azure.com/yourorganization"
+
+backend_resource_group  = "tfstate-rg"
+backend_storage_account = "tfstatestorageacct"
+backend_container       = "tfstate"

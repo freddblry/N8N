@@ -1,0 +1,10 @@
+prefix                = "tf"
+environment           = "dev"
+location              = "France Central"
+project_name          = "storage_project"
+account_tier          = "Standard"
+account_replication_type = "LRS"
+tags = {
+  Owner       = "team@example.com"
+  CostCenter  = "12345"
+}

@@ -1,0 +1,12 @@
+project_prefix       = "myapp"
+environment          = "dev"
+location             = "France Central"
+tags = {
+  project     = "static-web-app"
+  environment = "dev"
+}
+repository_url       = "https://github.com/username/repository"
+repository_branch    = "main"
+app_location         = "./"
+api_location         = "api"
+app_artifact_location = "build"

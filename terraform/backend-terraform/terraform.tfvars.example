@@ -1,0 +1,9 @@
+resource_group_name = "rg-tfstate-dev"
+location            = "westeurope"
+storage_account_name = "tfstateaccountdev001"
+container_name      = "tfstate"
+environment         = "dev"
+tags = {
+  Project = "TerraformBackend"
+  Owner   = "your-name"
+}

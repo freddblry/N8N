@@ -1,0 +1,8 @@
+resource_group_name = "myproject-rg-dev"
+location            = "westeurope"
+environment         = "dev"
+project_name        = "MyProject"
+tags = {
+  Owner       = "team@example.com"
+  CostCenter  = "12345"
+}

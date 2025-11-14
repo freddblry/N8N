@@ -1,0 +1,15 @@
+prefix       = "azstatic"
+environment  = "dev"
+location     = "westeurope"
+sku_tier     = "Standard"
+repository_url = "https://github.com/your-org/your-static-web-app-repo"
+branch       = "main"
+github_token = "ghp_yourgithubtoken"
+app_location = "/"
+api_location = "api"
+output_location = "build"
+tags = {
+  Terraform   = "true"
+  Environment = "dev"
+  Project     = "AzureStaticWebApp"
+}
